@@ -1,0 +1,190 @@
+/* universal styles */
+
+body  {
+    font-family: 'Abril Fatface', cursive;;
+}
+
+
+/* navbar styles */
+
+#navbar-brand {
+    height: 40px;
+}
+
+.navbar.scrolled {
+    background: #000000;
+    opacity: 0.9;
+    transition: background 500ms;
+}
+.navbar-dark.navbar-nav.nav-link {
+    color: #ffffff;
+    opacity: 1;
+}
+
+/* body styles */
+
+#header {
+    background: #FF6D6A;
+}
+
+#header h1 {
+    font-family: 'milkshakeregular', cursive;
+    line-height: 7rem;
+    text-transform: lowercase;
+    font-size: 10rem;
+    color: #ffffff;
+}
+
+#header h4 {
+    line-height: 3.5rem;
+    letter-spacing: 0rem;
+    color: #ffffff;
+}
+
+i {
+    color: #ffffff;
+    font-size: 5rem;
+}
+
+#web {
+    background-image: url(../imgs/drSlotWebSample1.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: none;
+    height: auto;
+    width: 100%;
+}
+
+#web h4 {
+    font-family: Helvetica Neue, Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    letter-spacing: 0rem;
+    font-size: 0.9rem;
+    color: #070707;
+}
+
+ .web {
+     background-color: white;
+    opacity: 0.9; 
+} 
+
+#web-samples p {
+    font-family: Helvetica Neue, Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    letter-spacing: 0rem;
+    font-size: 0.9rem;
+    color: #070707;
+}
+
+#brand {
+    background-image: url(../imgs/brandSampleLFGT.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: none;
+    height: auto;
+    width: 100%;
+}
+
+@media screen and (max-width:768px){
+    #brand h1 {
+        font-size: 4rem;
+    }
+}
+
+#brand h4 {
+    font-family: Helvetica Neue, Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    letter-spacing: 0rem;
+    font-size: 0.9rem;
+    color: #070707;
+}
+
+#brand-board {
+    background: #070707;
+}
+
+#brand-board img {
+    max-height: 60px;
+    opacity: 0.3;
+}
+
+#brand-board img:hover {
+    opacity: 1;
+}
+
+@media screen and (max-width: 768px){
+    #brand-board img{
+        max-height: auto;
+        max-width: 150px;
+    }
+}
+
+#brand-board h1 {
+    font-family: 'milkshakeregular', cursive;
+    color: #ffffff;
+    font-size: 5rem;
+    opacity: 0.9;
+}
+
+#graphic {
+    background-image: url(../imgs/brandSampleMaryAnn.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: none;
+    height: auto;
+    width: 100%;
+}
+
+@media screen and (max-width:992px){
+    #graphic h1 {
+        font-size: 2.7rem;
+    }
+}
+
+#graphic h4 {
+    font-family: Helvetica Neue, Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    letter-spacing: 0rem;
+    font-size: 0.9rem;
+    color: #070707;
+}
+
+#graphic-samples p {
+    font-family: Helvetica Neue, Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    letter-spacing: 0rem;
+    font-size: 0.9rem;
+    color: #070707;
+}
+
+#contact {
+    background: #070707;
+}
+
+#contact h1, #contact a {
+    font-family: 'milkshakeregular', cursive;
+    color: #ffffff;
+    font-size: 5rem;
+    opacity: 0.9;
+    
+}
+
+#contact a:hover {
+    color: #2ad2c9;
+}
+
+#contact p {
+    font-family: Helvetica Neue, Arial, Helvetica, sans-serif;
+    font-weight: 700;
+    font-size: 0.9rem;
+    color: #ffffff;
+    opacity: 0.7;
+}
+
+#contact i {
+    opacity: 0.5;
+}
+
+#contact i:hover {
+    opacity: 1;
+}
